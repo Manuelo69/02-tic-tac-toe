@@ -4,7 +4,7 @@ import { useState } from "react";
 import "./App.css";
 import confetti from "canvas-confetti";
 import { Square } from "./components/square";
-import { TURNS, WINNER_COMBOS } from "./constants";
+import { TURNS } from "./constants";
 import { checkWinner } from "./logic/board";
 import { WinnerModal } from "./components/WinnerModal";
 import { checkEndGame } from "./logic/board";
